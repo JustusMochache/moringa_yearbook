@@ -337,6 +337,33 @@
 
             </GridLayout>
 
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/locationEditText"
+                android:layout_above="@+id/findCoursesButton"
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:hint="Enter Course Code"
+                android:layout_centerHorizontal="true" />
+
+<!--                android:background="@color/colorTextIcons"-->
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Find Courses"
+                android:id="@+id/findCoursesButton"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorAccent"/>
+
+<!--                android:textColor="@color/colorTextIcons" -->
+
+
+
         </LinearLayout>
 
 </ScrollView>
