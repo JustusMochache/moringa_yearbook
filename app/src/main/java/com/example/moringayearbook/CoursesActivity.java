@@ -8,6 +8,7 @@ import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class CoursesActivity extends AppCompatActivity {
     ListView listView;
@@ -21,16 +22,13 @@ public class CoursesActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.ListView);
 
         final String[] strArr = new String[]{
-                "Shadrack",
-                "Mark",
-                "Mburia",
-                "Justus",
-                "Hamerton",
-                "Philip",
-                "Kamala",
-                "Omonche",
-                "Joel",
-                "Nheru"
+                "Angular",
+                "CSS",
+                "Javascript",
+                "Java",
+                "Android",
+                "Spark",
+                "Firebase"
         };
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,android.R.id.text1, strArr);
 
@@ -41,6 +39,8 @@ public class CoursesActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
 
+                String value = strArr[i];
+                Toast.makeText(CoursesActivity.this,value, Toast.LENGTH_LONG).show();
 
             }
         });
