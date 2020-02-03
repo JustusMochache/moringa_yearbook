@@ -36,7 +36,7 @@
                 <TextView
                     android:layout_marginTop="6dp"
                     android:layout_below="@+id/txtdashboard"
-                    android:text="Developers"
+                    android:text="Android developers"
                     android:textSize="14sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
@@ -86,7 +86,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Calendar"
+                            android:text="Shadrack"
                             android:textColor="#6f6f6f"
                             android:textSize="18sp" />
 
@@ -120,7 +120,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Calendar"
+                            android:text="Kamala"
                             android:textColor="#6f6f6f"
                             android:textSize="18sp" />
 
@@ -155,7 +155,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Calendar"
+                            android:text="Neru"
                             android:textColor="#6f6f6f"
                             android:textSize="18sp" />
 
@@ -189,7 +189,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Calendar"
+                            android:text="Betty"
                             android:textColor="#6f6f6f"
                             android:textSize="18sp" />
 
@@ -223,7 +223,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Calendar"
+                            android:text="Philip"
                             android:textColor="#6f6f6f"
                             android:textSize="18sp" />
 
@@ -257,7 +257,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Calendar"
+                            android:text="Omonche"
                             android:textColor="#6f6f6f"
                             android:textSize="18sp" />
 
@@ -291,7 +291,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Calendar"
+                            android:text="Justus"
                             android:textColor="#6f6f6f"
                             android:textSize="18sp" />
 
@@ -325,7 +325,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
-                            android:text="Calendar"
+                            android:text="Mark"
                             android:textColor="#6f6f6f"
                             android:textSize="18sp" />
 
