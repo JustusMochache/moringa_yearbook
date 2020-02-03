@@ -70,7 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:text="!!! This App is under constaruction"
+                android:text="!!! This App is under construction"
                 android:textColor="#6f6f6f"
                 android:textSize="18sp" />
 
