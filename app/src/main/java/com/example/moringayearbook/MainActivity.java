@@ -15,7 +15,7 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private Button mFindCourseButton;
-    private Button mFindContactButton;
+
     @BindView(R.id.user_1) CardView user_card_one;
     @BindView(R.id.user_2) CardView user_card_two;
     @BindView(R.id.user_3) CardView user_card_three;
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         user_card_eight.setOnClickListener(this);
 
 
-        mFindContactButton = (Button)findViewById(R.id.findContactButton);
+
         mFindCourseButton = (Button) findViewById(R.id.findCoursesButton);
         mFindCourseButton.setOnClickListener(new View.OnClickListener() {
             @Override

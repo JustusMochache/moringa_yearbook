@@ -7,10 +7,13 @@ import android.view.View;
 import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
 public class CoursesActivity extends AppCompatActivity {
+
+    private Button mFindContactButton;
     ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +22,9 @@ public class CoursesActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_courses);
 
-        listView = (ListView) findViewById(R.id.ListView);
+        mFindContactButton = (Button) findViewById(R.id.findCoursesButton);
+        mFindContactButton.setOnClickListener();
+                listView = (ListView) findViewById(R.id.ListView);
 
         final String[] strArr = new String[]{
                 "Angular",
