@@ -15,11 +15,13 @@ An Android application for users to search for Android Develo[ers in Moringa.
 
 ## Technologies Used:
 
-* **Gradle** - to manage and download dependencies
+* **Gradle** - to manage and download dependencies.
 
 * **ButterKnife** - to Annotate fields with @BindView and a view ID to find and automatically cast the corresponding view in the layout.
 
-* **Android Studio** - to develop the application
+* **Android Studio** - to develop the application.
+
+* **Toast** - to show a message/notification in a period of time.
 
 ## Known Bugs
 
